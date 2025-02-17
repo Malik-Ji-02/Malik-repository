@@ -262,6 +262,11 @@ body{
     row-gap: 40px;
 }
 
+.link-video{
+    text-decoration: none;
+    color:black;
+}
+
 .video-4{
     position:relative;
 }
@@ -356,4 +361,8 @@ body{
     border-radius:3px;
     color:white;
     opacity:60%;
+}
+
+.owner-name:hover{
+    cursor:default;
 }
