@@ -267,7 +267,7 @@ body{
     color:black;
 }
 
-.video-4{
+.video{
     position:relative;
 }
 
@@ -290,7 +290,7 @@ body{
 }
 
 
-.thumbnail-4{
+.thumbnail{
     width:100%;
 }
 
@@ -310,27 +310,27 @@ body{
     border-radius:3px;
 }
 
-.stats-4{
+.stats{
     display:grid;
     grid-template-columns: 50px 1fr;
     padding-top: 8px;
 }
 
-.profile-4{
+.profile{
     width:50px;
     vertical-align: top;
 }
 
-.profile-photo-4{
+.profile-photo{
     width:36px;
     border-radius: 40px;
 }
 
-.info-4{
+.info{
     width:100%;
 }
 
-.video-title-4{
+.video-title{
     font-size: 14px;
     font-weight: 600;
     font-family:Roboto,Arial;
@@ -338,13 +338,13 @@ body{
     line-height: 20px;
 }
 
-.video-maker-4{
+.video-maker{
     color: rgb(96, 96, 96);
     font-size: 12px;
     padding-bottom: 4px;
 }
 
-.video-stats-4{
+.video-stats{
     color: rgb(96, 96, 96);
     font-size: 12px;
 }
