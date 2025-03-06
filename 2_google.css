@@ -1,14 +1,16 @@
-div {
-    text-align: center;
+html, body{
+    height:100%;
 }
 
-input{
-
+div {
+    text-align: center;
+    font-family: arial;
 }
 
 p{
     display:inline-block;
-    background-color: rgb(226, 226, 226);
+    color:rgb(51, 51, 51);
+    background-color: rgb(245, 245, 245);
     font-family: arial;
     font-size: 15px;
     margin-top: 35px;
@@ -21,9 +23,176 @@ p{
     cursor: pointer;
 }
 
+
+
+
+.footer-1{
+    display:flex;
+    position:fixed;
+    bottom:50px;
+    left:0px;
+    right:0px;
+    background-color:rgb(226, 226, 226);
+    border-bottom:1px solid rgb(196, 196, 196);
+    height:45px;
+    align-items: center;
+    padding-left:30px;
+}
+
+.country{
+    font-size:15px;
+    margin-right:28px;
+}
+
+.footer-options{
+    font-size:15px;
+    margin-right:28px;
+}
+
+.footer-options:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+
+.footer-2{
+    display:flex;
+    flex-direction:row;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background-color:rgb(226, 226, 226);
+    height:50px;
+    align-items: center;
+    padding-left:30px;
+    padding-right:10px;
+    justify-content:space-between;
+}
+
+.left-section{
+    display:flex;
+    flex-direction:row;
+}
+
+.right-section{
+    display:flex;
+    flex-direction:row;
+}
+
+
+
+
+
+
+
+.google-page{
+    display:flex;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-1{
+    height:10%;
+    display:flex;
+    flex:1;
+    flex-direction:row;
+    align-items: center;
+    padding-left:20px;
+    padding-right:12px;
+    justify-content:space-between;
+}
+
+.left-sector{
+    display:flex;
+}
+
+.right-sector{
+    display:flex;
+    align-items:center;
+}
+
+.header-options{
+    font-size:14px;
+    margin-right:14px;
+}
+
+.header-options:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+
+.search-labs{
+    height:25px;
+    width:25px;
+    object-fit: cover;
+    object-position:center;
+    margin-right:7px;
+    border-radius:25px;
+    padding:9px;
+}
+
+.search-labs:hover{
+    background-color: rgb(233, 233, 233);
+    cursor:pointer;
+}
+
+.profile-photo{
+    height:35px;
+    width:35px;
+    border-radius:25px;
+}
+
+.profile-photo:hover{
+    cursor:pointer;
+}
+
+
+
+.section-2{
+    flex:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .google-image{
-    padding-top: 30px;
-    width:220px;
+    width:280px;
+}
+
+.section-3{
+    flex:3;
+}
+
+.search-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    height:fit-content;
+    background-color: light-blue;
+    border-radius: 26px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+}
+
+.search-button{
+    height:20px;
+    width:20px;
+    object-fit: cover;
+    object-position: center;
+    padding: 11px;
+    margin-right:-2px;
+    padding-left:15px;
+    border-top-left-radius: 29px;
+    border-bottom-left-radius: 29px;
+}
+
+.search-button:hover,
+.voice-search-button:hover,
+.camera-search-button:hover{
+    cursor:pointer;
 }
 
 .google-search{
@@ -31,11 +200,58 @@ p{
     font-size:18px;
     padding-left: 20px;
     padding-right:175px;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    height:40px;
     border:none;
     font-family: arial;
-    box-shadow: 1px 1px 5px rgb(128, 127, 127);
-    border-radius:22px;
     cursor:text;
+}
+
+.voice-search-button{
+    height:24px;
+    width:24px;
+    object-fit: cover;
+    object-position: center;
+    padding: 9px;
+    margin-left:-1px;
+}
+
+.camera-search-button{
+    height:24px;
+    width:24px;
+    object-fit: cover;
+    object-position: center;
+    padding: 9px;
+    padding-right:15px;
+    margin-left:-1px;
+    border-top-right-radius: 29px;
+    border-bottom-right-radius: 29px;
+}
+
+
+
+
+
+.section-4{
+    flex:7;
+    display:flex;
+    justify-content: space-around;
+}
+
+.inner-sector{
+    display: flex;
+}
+
+.offering{
+    font-size:13px;
+    color:rgb(51, 51, 51);
+}
+
+.languages{
+    display:flex;
+}
+
+.each-one{
+    color:rgb(38, 0, 255);
+    font-size: 13px;
+    margin-left: 10px;
 }
