@@ -271,6 +271,12 @@ body{
     position:relative;
 }
 
+@media (max-width:600px) {
+    .container-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width:869px){
     .container-grid{
         grid-template-columns: 1fr 1fr;
@@ -366,3 +372,4 @@ body{
 .owner-name:hover{
     cursor:default;
 }
+v
