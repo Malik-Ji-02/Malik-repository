@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Style/Rock-Paper-Scessior.css">
+        <title>Rock Paper Scessior</title>
+    </head>
+    <body>
+
+        <p class="title">Rock Paper Scessior Game :-</p>
+
+        <button class="move-button" onclick="
+            playGame('rock');
+        ">
+            <img class="move-img" src="Images-Icons/rock-emoji.png">
+        </button>
+
+            
+        <button class="move-button" onclick="
+            playGame('paper');
+        ">
+            <img class="move-img" src="Images-Icons/paper-emoji.png">
+        </button>
+
+            
+        <button class="move-button" onclick="
+            playGame('scessior');
+        ">
+            <img class="move-img" src="Images-Icons/scessior-emoji.png">
+        </button>
+
+        <div>
+            <p class="js-result result"></p>
+            
+            <p class="js-move move"></p>
+            
+            <P class="js-score score"></P>
+        </div>
+
+        <button class="reset-button" onclick="
+            score.Wins = 0;
+            score.Looses = 0;
+            score.Ties = 0;
+            Score();
+        ">
+            Reset Score
+        </button>
+
+        <div class="owner-name">
+            By Malik Ji
+        </div>
+        
+        <script src="Script/Rock-Paper-Scessior.js"></script>
+    </body>
+</html>
