@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <link href="Styles/Calculator.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <bold><u><i><h1>Calculator:-</h1></i></u></bold>
+
+  <div class="container">
+    <h2><p class="calculation-display"></p></h2>
+    <p>
+  <button class="numeric-button" onclick="updateCalculation('1');">
+    1</button>
+  <button class="numeric-button" onclick="updateCalculation('2');">
+    2</button>
+  <button class="numeric-button" onclick="updateCalculation('3');">
+    3</button>
+  <button class="arithmatic-button" onclick="updateCalculation(' + ');">
+    +</button>
+  </p>
+  <p>
+  <button class="numeric-button" onclick="updateCalculation('4');">
+    4</button>
+  <button class="numeric-button" onclick="updateCalculation('5');">
+    5</button>
+  <button class="numeric-button" onclick="updateCalculation('6');">
+    6</button>
+  <button class="arithmatic-button" onclick="updateCalculation(' - ');">
+    -</button>
+  </p>
+  <p>
+  <button class="numeric-button" onclick="updateCalculation('7');">
+  7</button>
+  <button class="numeric-button" onclick="updateCalculation('8');">
+  8</button>
+  <button class="numeric-button" onclick="updateCalculation('9');">
+  9</button>
+  <button class="arithmatic-button" onclick="updateCalculation(' * ');">
+  *</button>
+  </p>
+  <p>
+  <button class="numeric-button" onclick="updateCalculation('0');">
+  0</button>
+  <button class="numeric-button" onclick="updateCalculation('.');">
+  .</button>
+  <button class="numeric-button" onclick="updateCalculation('=');">
+  =</button>
+  <button class="arithmatic-button" onclick="updateCalculation(' / ');">
+  /</button>
+  </p>
+  <p>
+  <button class="clear"onclick="updateCalculation('clear');">
+  Clear</button>
+  </p>
+  </div>
+  
+  <div class="owner-name">
+    By Malik Ji
+  </div>
+
+
+  <script src="Script/Calculator.js"></script>
+</body>
+
+</html>
