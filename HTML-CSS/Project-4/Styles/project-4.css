@@ -1,0 +1,94 @@
+body{
+    padding:20px 0px;
+    margin:0px;
+    background-color: #e7e6e6;
+    font-family: Arial;
+}
+
+.center{
+    margin:0px auto;
+    width:1000px;
+}
+
+.box-main{
+    width:100%;
+    height:fit-content;
+    box-shadow: 5px 5px rgba(182, 182, 182, 0.8);
+}
+
+.login-img-section{
+    width:50%;
+    float:left; 
+}
+
+.login-img-section img{
+    width:100%;
+    height:575px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 5px 5px rgba(182, 182, 182, 0.8);
+}
+
+.login-input{
+    background-color: white;
+    height:425px;
+    box-shadow: 5px 5px rgba(182, 182, 182, 0.8);
+    width:50%;
+    text-align: center;
+    float:right;
+    padding-top:150px;
+}
+
+.login-input h1{
+    text-align: center;
+    font-size:45px;
+    font-weight: normal;
+    color:black;
+    margin:30px 0px;
+}
+
+.input-1{
+    padding:10px 15px;
+    border-radius: 5px;
+    border:solid grey 1px;
+    font-size:14px;
+    width:35%;
+}
+
+.button-1{
+    font-weight: 600;
+    width:84%;
+    font-size:16px;
+    padding:10px 15px;
+    background-color: green;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor:pointer;
+    transition:background-color 0.5s ease-in;
+}
+
+.button-1:hover{
+    background-color: black;
+    color:white;
+    transition: background-color 0.5s ease-out;
+}
+
+.login-input p {
+    font-size: 14px;
+    color:green;
+    cursor: pointer;
+}
+
+.login-input p span{
+    color:rgb(80, 80, 80);
+}
+
+.login-input div{
+    color:green;
+    margin-top:145px;
+    font-size:15px;
+    cursor: pointer;
+    font-weight: bold;
+}

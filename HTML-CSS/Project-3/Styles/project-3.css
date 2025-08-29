@@ -1,0 +1,294 @@
+html{
+    padding:0px;
+}
+
+body{
+    padding:0px;
+    margin:0px;
+    background-color: black;
+}
+
+.center{
+    width: 1000px; 
+    margin: 0px;
+    margin:0 auto;
+}
+
+.our-team-main {
+    width:100%;
+    margin:0px auto;
+    float: left;
+    background-color: rgb(240, 240, 240);
+    padding-top:80px;
+    padding-bottom:60px;
+}
+
+.our-team-main h2{
+    font-size:45px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    color:black;
+    margin:0px;
+    padding:0px;
+}
+
+.our-team-main p{
+    font-size:18px;
+    font-family: arial;
+    color:grey;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+
+.team-box-main{
+    padding-top:60px;
+}
+
+.row-1{
+    width:100%;
+    float:left;
+    display:flex;
+    justify-content: center;
+}
+
+.box-1{
+    width:20%;
+    margin:15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    padding-top:20px;
+    padding-bottom:8px;
+    box-shadow: 5px 5px rgba(202, 202, 202, 0.3);
+    transition: box-shadow 0.5s ease;
+}
+
+.box-1:hover{
+    box-shadow: 5px 5px rgba(182, 182, 182, 0.8);
+    transition-duration: 0.5s;
+}
+
+.box-1 img{
+    width:150px;
+    height: 150px;
+    border-radius:50%;
+    object-fit: cover;
+    object-position: center;
+    border: solid rgb(210, 210, 210) 5px ;
+}
+
+.box-1 h3{
+    font-size:22px;
+    font-family: arial;
+    color:black;
+    margin:0px;
+    padding-top:14px;
+}
+
+.box-1 p{
+    font-size:14px;
+    font-family:arial;
+    color:grey;
+    margin:0px;
+    padding-top:4px;
+}
+
+.box-1 ul{
+    margin:0px;
+    padding:0px;
+    padding-top:10px;
+    text-align: center;
+    list-style: none;
+}
+
+.box-1 ul li{
+    display:inline-block;
+}
+
+.box-1 ul li img{
+    margin:10px;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border:none;
+}
+
+.logo-main{
+    width:100%;
+    background-color: white;
+    margin:0px;
+}
+
+.logo{
+    width:24%;
+    display:inline-block;
+    text-align:center;
+}
+
+.logo img{
+    width:100px;
+}
+
+.contact-main{
+    width:100%;
+    height:fit-content;
+    float: left;
+    margin:0px;
+    padding:80px 0px;
+    background: url(../Images/map.jpg);
+    background-size:cover;
+}
+
+.contact-main h2{
+    text-align: center;
+    font-size:45px;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    margin:0px;
+    padding: 0px;
+    margin-top:20px;
+}
+
+.contact-main p{
+    font-size:18px;
+    font-family:arial;
+    color:rgb(200, 200, 200);
+    text-align: center;
+    margin:0px;
+    padding:10px;
+}
+
+.contact-box-main{
+    margin-top:80px;
+    width:100%;
+    float:left;
+}
+
+.contact-box-1{
+    width:50%;
+    float:left;
+}
+
+.contact-box-2{
+    width:50%;
+    float:right;
+}
+
+.input1{
+    width:90%;
+    padding-left:15px;
+    height:40px;
+    font-size:16px;
+    border-radius:5px;
+    border:none;
+    margin-bottom:20px;
+}
+
+.input2{
+    padding:8px 14px;
+    width:90%;
+    height:150px;
+    border:none;
+    border-radius: 5px;
+    font-size:16px;
+}
+
+.button-main{
+    width:100%;
+    float:left;
+    margin-top:40px;
+    text-align:center;
+}
+
+.message-button{
+    padding:8px;
+    font-size:16px;
+    color:#08101a;
+    background-color: gold;
+    width:250px;
+    height:50px;
+    border-radius:25px;
+    border:none;
+    font-weight:bold;
+    transition-duration: 0.8s;
+}
+
+.message-button:hover{
+    background-color: #08101a;
+    color:gold;
+    transition: border,color,background-color;
+    transition-duration: 1s;
+}
+
+.footer-main{
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    float:left;
+    padding:10px 0px;
+}
+
+.footer-1{
+    width:33%;
+    float:left;
+}
+
+.footer-1 p{
+    color:grey;
+    font-size:14px;
+    padding-left:55px;
+}
+
+.footer-2{
+    width:33%;
+    float:left;
+    text-align: center;
+}
+
+.footer-2 ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+
+.footer-2 ul li{
+    display:inline-block;
+}
+
+.footer-2 ul li img{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top: 10px;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border:none;
+}
+
+.footer-3{
+    width:33%;
+    float:right;
+    text-align: right; 
+}
+
+.footer-3 ul{
+    margin:0px;
+    padding:15px;
+    list-style: none;
+    padding-right:55px;
+}
+
+.footer-3 ul li{
+    font-size:14px;
+    display:inline-block;
+    color:grey;
+    margin-left:15px;
+}
+
+.footer-3 ul li:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    color:blue;
+}
